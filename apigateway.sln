@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "engin-web-api", "src\engin-web-api.csproj", "{995BA461-DC3D-4BA4-A647-A28F4810D310}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{33F847F3-2B96-4A97-82AC-68365539E7C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".pipeline", ".pipeline", "{83B0AF5E-B6AD-42DA-9A14-D6C4A67C6140}"
+	ProjectSection(SolutionItems) = preProject
+		.pipeline\.gitignore = .pipeline\.gitignore
+		.pipeline\.npmignore = .pipeline\.npmignore
+		.pipeline\cdk.json = .pipeline\cdk.json
+		.pipeline\jest.config.js = .pipeline\jest.config.js
+		.pipeline\package.json = .pipeline\package.json
+		.pipeline\README.md = .pipeline\README.md
+		.pipeline\tsconfig.json = .pipeline\tsconfig.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{995BA461-DC3D-4BA4-A647-A28F4810D310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{995BA461-DC3D-4BA4-A647-A28F4810D310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{995BA461-DC3D-4BA4-A647-A28F4810D310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{995BA461-DC3D-4BA4-A647-A28F4810D310}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{995BA461-DC3D-4BA4-A647-A28F4810D310} = {33F847F3-2B96-4A97-82AC-68365539E7C8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04A5CBE7-68A8-4132-8268-F3A2A94E625D}
+	EndGlobalSection
+EndGlobal

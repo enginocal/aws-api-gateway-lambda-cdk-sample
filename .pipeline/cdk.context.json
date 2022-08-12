@@ -1,0 +1,15 @@
+{
+  "test": {
+    "account": "your_aws_account_id",
+    "region": "region",
+    "appEnv": "application_environment",
+    "vpc": {
+      "id": "your_vpc_id"
+    },
+    "lambda": {
+      "memorySizeInMB": 256,
+      "timeoutInSeconds": 60
+    },
+    "netCoreEnv": "Development"
+  }
+}
